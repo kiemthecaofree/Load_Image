@@ -7,11 +7,9 @@ var loader = document.getElementById('loader');
 var countImagesLoaded = 0;
 var ready = false;
 var totalImages = 0;
-
-
 const count = 5;
-const apiKey = '3vUzAi3nySSI49-D6GTFrYyLK7vwswn7AVh1iruP4Ew'
-const apiUnsplash = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}&query=girl`
+var apiKey = '3vUzAi3nySSI49-D6GTFrYyLK7vwswn7AVh1iruP4Ew'
+var apiUnsplash = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}&query=girl`
 
 let hidenLoad = () => {
     loader.setAttribute('style', 'opacity : 0; display:none');
@@ -61,6 +59,9 @@ async function getPhoto(){
 
     } catch (error) {
         console.log("Load chua xong!___ "+error);
+        apiKey = 'b1W7HIIRrZOO4tZTNaVVBLRx7L7q810zjqEjxj3OAeY';
+        apiUnsplash = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}&query=girl`
+        getPhoto();
     }
 }
 
@@ -72,7 +73,6 @@ var loadMorePhoto = () =>{
 }
 
 loadMorePhoto();
-
 
 window.addEventListener('scroll', () => {
     if(window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000 && ready == true) // 772 + x > 1770 - 1000 = 1300
