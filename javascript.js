@@ -75,7 +75,7 @@ loadMorePhoto();
 
 
 window.addEventListener('scroll', () => {
-    if(window.innerHeight + window.scrollY >= document.body.offsetHeight - 700 && ready == true) // 772 + x > 1770 - 1000 = 1300
+    if(window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000 && ready == true) // 772 + x > 1770 - 1000 = 1300
     {
         ready = false;
         countImagesLoaded = 0;
