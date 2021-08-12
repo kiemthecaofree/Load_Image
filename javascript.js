@@ -79,10 +79,6 @@ window.addEventListener('scroll', () => {
     {
         ready = false;
         countImagesLoaded = 0;
-        var x = count + 5;
-        for(var i = 0; i < x/5; i++)
-        {
-            loadMorePhoto();
-        }
+        loadMorePhoto();
     }   
 })
