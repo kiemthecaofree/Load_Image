@@ -1,13 +1,10 @@
 let Photos = [];
-// const count = 10;
-// apiKey = '3vUzAi3nySSI49-D6GTFrYyLK7vwswn7AVh1iruP4Ew';
-// const apiUnsplash = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 var image_container = document.getElementById('image_container');
 var loader = document.getElementById('loader');
 var countImagesLoaded = 0;
 var ready = false;
 var totalImages = 0;
-const count = 5;
+const count = 10;
 var apiKey = '3vUzAi3nySSI49-D6GTFrYyLK7vwswn7AVh1iruP4Ew'
 var apiUnsplash = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}&query=girl`
 
