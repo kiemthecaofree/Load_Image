@@ -5,7 +5,7 @@ var get_code = document.querySelector(".get_code ");
 get_code.addEventListener("click", ()=>{
     const changeTime = () =>{
     time -- ;
-        if(time === 59){
+        if(time === 0){
 
             get_code.innerHTML = myArray[Math.floor(Math.random()*myArray.length)];
             clearInterval(interval);
