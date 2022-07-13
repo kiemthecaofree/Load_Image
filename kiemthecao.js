@@ -7,7 +7,7 @@ var time = 91;
             const changeTime = () =>{
                 time -- ;
                     if(time === 0){
-                        // myArray[Math.floor(Math.random()*myArray.length)]
+                        /// myArray[Math.floor(Math.random()*myArray.length)]
                         get_code.innerHTML = "333333";
                         clearInterval(interval);
                         return;
