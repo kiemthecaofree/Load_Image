@@ -27,7 +27,7 @@
                 if(time === 0){
                     clearInterval(interval);
                     getMaTheCao();
-                    btn_get_code= document.querySelector("#btn_get_code");
+                    btn_get_code.addEventListener("click", codePro);
                     return;
                 }
                 get_code.innerHTML = "Vui lòng đợi "+time +" s";
