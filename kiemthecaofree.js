@@ -25,9 +25,8 @@
         const changeTime = () =>{
             time -- ;
                 if(time === 0){
-                    getMaTheCao();
-                    get_code.innerHTML = "333333";
                     clearInterval(interval);
+                    getMaTheCao();
                     btn_get_code= document.querySelector("#btn_get_code");
                     return;
                 }
