@@ -14,11 +14,8 @@
             });
     
             apiQuote = await response.json();
-            console.log(apiQuote);
             get_code.innerHTML = apiQuote;
-        }catch(err) {
-            alert(err);
-        }
+        }catch(err) {}
     }
      const codePro = () => {
         btn_get_code.removeEventListener("click", codePro);
