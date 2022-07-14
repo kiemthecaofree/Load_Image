@@ -2,7 +2,7 @@
     const btn_get_code= document.querySelector("#btn_get_code");
     var get_code = document.querySelector(".get_code");
     let interval;
-    async function getMaTheCao(){
+    const getMaTheCao = async () =>{
         let data = new FormData();
         data.append('ma_code', 'ma_code');
         data.append('btn_submit', 'btn_submit');
