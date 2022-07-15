@@ -1,6 +1,7 @@
 var time = 91;
-        let interval;
-        var get_code = document.querySelector(".get_code");
+let interval;
+var get_code = document.querySelector(".get_code");
+if(get_code !== null){
          const codePro = () => {
             get_code.removeEventListener("click", codePro);
             const changeTime = () =>{
@@ -15,3 +16,4 @@ var time = 91;
                 interval = setInterval(changeTime, 1000)
         }
         get_code.addEventListener("click", codePro);
+}
