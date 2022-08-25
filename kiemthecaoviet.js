@@ -7,7 +7,7 @@ if(get_code !== null){
             const changeTime = () =>{
                 time -- ;
                     if(time === 0){
-                        get_code.innerHTML = "444444";
+                        get_code.innerHTML = "000000";
                         clearInterval(interval);
                         return;
                     }
