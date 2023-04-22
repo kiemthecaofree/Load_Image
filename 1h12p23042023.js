@@ -285,8 +285,7 @@ btn_success.forEach((btn) => {
 
 inputList.forEach(input => {
   input.addEventListener("keypress", (e) => {
-    console.log(e.keyCode);
-    if (e.keyCode === 32) {
+    if (e.keyCode === 32 || e.code === "Space") {
       e.preventDefault();
     }
   })
