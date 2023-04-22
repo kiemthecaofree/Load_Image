@@ -54,7 +54,7 @@ const appList_Array = [
     linkDownload_first:
       "https://go.isclix.com/deep_link/4665406253457732723/5633817683390722383?",
     linkDownload_last: "url=https%3A%2F%2Fvidientuvnpay.vnpay.vn%2F",
-    video_link: "https://www.youtube.com/embed/e-yC2U5Tyds",
+    video_link: "https://www.youtube.com/embed/wP-enRXM82c",
     require: "Từ 15 tuổi trở lên",
     image_link:
       "https://play-lh.googleusercontent.com/o-_z132f10zwrco4NXk4sFqmGylqXBjfcwR8-wK0lO1Wk4gzRXi4IZJdhwVlEAtpyQ=w240-h480-rw",
