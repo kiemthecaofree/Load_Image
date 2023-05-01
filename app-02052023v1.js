@@ -343,7 +343,7 @@ const appList_Array = [
     image_link:
       "https://play-lh.googleusercontent.com/NfFBz1Rxk0nQ7RsOk0kXbi1AEp1ZJ3rzJHbwRlmheZEDPPHh7dscqyxyX-ehxTl7tw=w240-h480-rw",
     description:
-      "<li>Điền Username và nhấn tạo link.</li> <li>Nhấn nút tải app để tham gia sự kiện.</li><li>Tiến hành liên kết tài khoản hoặc thẻ ngân hàng với ví ZaloPay trừ MB Bank, OCB, VIB, VPBANK, Nam Á Bank, HD Bank. Không chấp nhận liên kết thẻ quốc tế như VISA, Mastercard và JCB.</li><li>Nạp 10K vào ví ZaloPay bằng tài khoản/thẻ ATM vừa liên kết.</li><li>Bạn đã hoàn thành các bước rồi nhé, liên hệ mình nhận 20K và đợi 1-3 ngày nhận thêm 500K voucher từ app.</li>",
+      "<li>Điền Username và nhấn tạo link.</li> <li>Nhấn nút tải app để tham gia sự kiện.</li><li>Tiến hành liên kết tài khoản hoặc thẻ ngân hàng với ví ZaloPay trừ MB Bank, OCB, VIB, VPBANK, Nam Á Bank, HD Bank. Không chấp nhận liên kết thẻ quốc tế như VISA, Mastercard và JCB.</li><li>Nạp 10K vào ví ZaloPay bằng tài khoản/thẻ ATM vừa liên kết.</li><li>Bạn đã hoàn thành các bước rồi nhé, liên hệ mình nhận 30K vã kiểm tra mục ưu đãi ZaloPay nhận thêm quà voucher 1 triệu từ app.</li>",
     status: true,
     isUTM: true,
     source: "kiemthecao",
