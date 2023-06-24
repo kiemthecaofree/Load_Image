@@ -58,23 +58,23 @@ var _0x5519 = [
   "\x61\x64\x64",
   "\x63\x68\x61\x6E\x67\x65",
 ];
-const server_select_div = document[_0x5519[1]](_0x5519[0]);
-const website_input = document[_0x5519[1]](_0x5519[2]);
-const btn_submit = document[_0x5519[1]](_0x5519[3]);
-const txt_code = document[_0x5519[1]](_0x5519[4]);
-const btn_copy = document[_0x5519[1]](_0x5519[5]);
-const message_container = document[_0x5519[1]](_0x5519[6]);
-const alert_close = document[_0x5519[1]](_0x5519[7]);
-const alert_button_success = document[_0x5519[1]](_0x5519[8]);
-const alert_message = document[_0x5519[1]](_0x5519[9]);
-const step_2 = document[_0x5519[1]](_0x5519[10]);
-const quizapp_message = document[_0x5519[1]](_0x5519[11]);
-const domain_api = [
+const a = document[_0x5519[1]](_0x5519[0]);
+const b = document[_0x5519[1]](_0x5519[2]);
+const c = document[_0x5519[1]](_0x5519[3]);
+const d = document[_0x5519[1]](_0x5519[4]);
+const e = document[_0x5519[1]](_0x5519[5]);
+const f = document[_0x5519[1]](_0x5519[6]);
+const g = document[_0x5519[1]](_0x5519[7]);
+const h = document[_0x5519[1]](_0x5519[8]);
+const i = document[_0x5519[1]](_0x5519[9]);
+const k = document[_0x5519[1]](_0x5519[10]);
+const l = document[_0x5519[1]](_0x5519[11]);
+const m = [
   { website: _0x5519[12], api_link: _0x5519[13] },
   { website: _0x5519[14], api_link: _0x5519[13] },
   { website: _0x5519[15], api_link: _0x5519[16], api_link_param: _0x5519[17] },
 ];
-const getCodeVIPLamNgayCom = (_0x37cexe, _0x37cexf) => {
+const a1 = (_0x37cexe, _0x37cexf) => {
   return fetch(_0x37cexe, {
     method: _0x5519[20],
     headers: {
@@ -86,7 +86,7 @@ const getCodeVIPLamNgayCom = (_0x37cexe, _0x37cexf) => {
     return _0x37cex10[_0x5519[18]]();
   });
 };
-const getParamQuizApp = (_0x37cexe) => {
+const a2 = (_0x37cexe) => {
   return fetch(_0x37cexe, { method: _0x5519[24] })
     [_0x5519[19]]((_0x37cex10) => {
       return _0x37cex10[_0x5519[18]]();
@@ -95,7 +95,7 @@ const getParamQuizApp = (_0x37cexe) => {
       return _0x37cex12;
     });
 };
-const getCodeVIPQuizApp = (_0x37cexe) => {
+const a3 = (_0x37cexe) => {
   return fetch(_0x37cexe, { method: _0x5519[24] })
     [_0x5519[19]]((_0x37cex10) => {
       return _0x37cex10[_0x5519[18]]();
@@ -104,12 +104,12 @@ const getCodeVIPQuizApp = (_0x37cexe) => {
       return _0x37cex12;
     });
 };
-btn_submit[_0x5519[52]](_0x5519[25], async () => {
-  txt_code[_0x5519[26]] = _0x5519[27];
-  btn_copy[_0x5519[26]] = _0x5519[28];
-  const _0x37cex14 = server_select_div[_0x5519[29]];
-  const _0x37cexf = website_input[_0x5519[29]][_0x5519[30]]();
-  const _0x37cex15 = domain_api[_0x5519[32]]((_0x37cex16) => {
+c[_0x5519[52]](_0x5519[25], async () => {
+  d[_0x5519[26]] = _0x5519[27];
+  e[_0x5519[26]] = _0x5519[28];
+  const _0x37cex14 = a[_0x5519[29]];
+  const _0x37cexf = b[_0x5519[29]][_0x5519[30]]();
+  const _0x37cex15 = m[_0x5519[32]]((_0x37cex16) => {
     return _0x37cex16[_0x5519[31]] === _0x37cex14;
   });
   if (_0x37cex15) {
@@ -117,8 +117,8 @@ btn_submit[_0x5519[52]](_0x5519[25], async () => {
       _0x37cexf[_0x5519[33]] === 0 &&
       _0x37cex15[_0x5519[31]] !== _0x5519[15]
     ) {
-      alert_message[_0x5519[26]] = _0x5519[34];
-      message_container[_0x5519[37]][_0x5519[36]](_0x5519[35]);
+      i[_0x5519[26]] = _0x5519[34];
+      f[_0x5519[37]][_0x5519[36]](_0x5519[35]);
       return;
     }
     let _0x37cex17 = _0x5519[38];
@@ -127,57 +127,56 @@ btn_submit[_0x5519[52]](_0x5519[25], async () => {
     let _0x37cex1a = false;
     if (_0x37cex15[_0x5519[31]] == _0x5519[12]) {
       _0x37cex17 = _0x37cex15[_0x5519[39]];
-      _0x37cex19 = await getCodeVIPLamNgayCom(_0x37cex17, _0x37cexf);
+      _0x37cex19 = await a1(_0x37cex17, _0x37cexf);
     } else {
       if (_0x37cex15[_0x5519[31]] == _0x5519[15]) {
         const _0x37cex1b = _0x37cex15[_0x5519[40]];
-        _0x37cex18 = await getParamQuizApp(_0x37cex1b);
+        _0x37cex18 = await a2(_0x37cex1b);
         const { azauth, q, t } = _0x37cex18;
         _0x37cex1a = _0x37cex18[_0x5519[41]];
         if (!_0x37cex1a) {
-          alert_message[_0x5519[26]] = _0x5519[42];
-          message_container[_0x5519[37]][_0x5519[36]](_0x5519[35]);
+          i[_0x5519[26]] = _0x5519[42];
+          f[_0x5519[37]][_0x5519[36]](_0x5519[35]);
         }
         _0x37cex17 = `${_0x5519[38]}${_0x37cex15[_0x5519[39]]}${
           _0x5519[43]
         }${azauth}${_0x5519[44]}${q}${_0x5519[45]}${t}${_0x5519[46]}`;
-        _0x37cex19 = await getCodeVIPQuizApp(_0x37cex17);
+        _0x37cex19 = await a3(_0x37cex17);
         _0x37cex1a = _0x37cex19[_0x5519[41]];
       }
     }
     if (_0x37cex19[_0x5519[47]] || _0x37cex1a) {
-      txt_code[_0x5519[26]] =
-        _0x37cex19[_0x5519[48]] || _0x37cex19[_0x5519[49]];
-      website_input[_0x5519[29]] = _0x5519[38];
+      d[_0x5519[26]] = _0x37cex19[_0x5519[48]] || _0x37cex19[_0x5519[49]];
+      b[_0x5519[29]] = _0x5519[38];
     } else {
-      alert_message[_0x5519[26]] = _0x5519[50];
-      message_container[_0x5519[37]][_0x5519[36]](_0x5519[35]);
+      i[_0x5519[26]] = _0x5519[50];
+      f[_0x5519[37]][_0x5519[36]](_0x5519[35]);
     }
   } else {
-    alert_message[_0x5519[26]] = _0x5519[51];
-    message_container[_0x5519[37]][_0x5519[36]](_0x5519[35]);
+    i[_0x5519[26]] = _0x5519[51];
+    f[_0x5519[37]][_0x5519[36]](_0x5519[35]);
   }
 });
-btn_copy[_0x5519[52]](_0x5519[25], () => {
-  const _0x37cex1c = txt_code[_0x5519[26]][_0x5519[30]]();
+e[_0x5519[52]](_0x5519[25], () => {
+  const _0x37cex1c = d[_0x5519[26]][_0x5519[30]]();
   if (_0x37cex1c[_0x5519[33]] > 0) {
     navigator[_0x5519[54]][_0x5519[53]](_0x37cex1c);
-    btn_copy[_0x5519[26]] = _0x5519[55];
+    e[_0x5519[26]] = _0x5519[55];
   }
 });
-alert_close[_0x5519[52]](_0x5519[25], () => {
-  message_container[_0x5519[37]][_0x5519[56]](_0x5519[35]);
+g[_0x5519[52]](_0x5519[25], () => {
+  f[_0x5519[37]][_0x5519[56]](_0x5519[35]);
 });
-alert_button_success[_0x5519[52]](_0x5519[25], () => {
-  message_container[_0x5519[37]][_0x5519[56]](_0x5519[35]);
+h[_0x5519[52]](_0x5519[25], () => {
+  f[_0x5519[37]][_0x5519[56]](_0x5519[35]);
 });
-server_select_div[_0x5519[52]](_0x5519[57], () => {
-  const _0x37cex14 = server_select_div[_0x5519[29]];
+a[_0x5519[52]](_0x5519[57], () => {
+  const _0x37cex14 = a[_0x5519[29]];
   if (_0x37cex14 == _0x5519[15]) {
-    step_2[_0x5519[37]][_0x5519[56]](_0x5519[35]);
-    quizapp_message[_0x5519[37]][_0x5519[36]](_0x5519[35]);
+    k[_0x5519[37]][_0x5519[56]](_0x5519[35]);
+    l[_0x5519[37]][_0x5519[36]](_0x5519[35]);
   } else {
-    step_2[_0x5519[37]][_0x5519[36]](_0x5519[35]);
-    quizapp_message[_0x5519[37]][_0x5519[56]](_0x5519[35]);
+    k[_0x5519[37]][_0x5519[36]](_0x5519[35]);
+    l[_0x5519[37]][_0x5519[56]](_0x5519[35]);
   }
 });
