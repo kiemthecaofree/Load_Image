@@ -1,0 +1,185 @@
+(function () {
+    var _0x4de8 = [
+  "\x23\x73\x65\x6C\x65\x63\x74\x5F\x73\x65\x72\x76\x65\x72",
+  "\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72",
+  "\x23\x77\x65\x62\x73\x69\x74\x65\x5F\x69\x6E\x70\x75\x74",
+  "\x2E\x62\x74\x6E\x5F\x73\x75\x62\x6D\x69\x74",
+  "\x2E\x74\x78\x74\x5F\x63\x6F\x64\x65",
+  "\x2E\x62\x74\x6E\x5F\x63\x6F\x70\x79",
+  "\x2E\x6D\x65\x73\x73\x61\x67\x65\x5F\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72",
+  "\x2E\x61\x6C\x65\x72\x74\x5F\x63\x6C\x6F\x73\x65",
+  "\x2E\x61\x6C\x65\x72\x74\x5F\x62\x75\x74\x74\x6F\x6E\x5F\x73\x75\x63\x63\x65\x73\x73",
+  "\x2E\x61\x6C\x65\x72\x74\x5F\x6D\x65\x73\x73\x61\x67\x65",
+  "\x23\x73\x74\x65\x70\x5F\x32",
+  "\x2E\x71\x75\x69\x7A\x61\x70\x70\x5F\x6D\x65\x73\x73\x61\x67\x65",
+  "\x6C\x61\x6D\x6E\x67\x61\x79\x2E\x63\x6F\x6D",
+  "\x6C\x61\x6D\x6E\x67\x61\x79\x2E\x76\x6E",
+  "\x71\x75\x69\x7A\x61\x70\x70",
+  "\x6A\x73\x6F\x6E",
+  "\x74\x68\x65\x6E",
+  "\x68\x74\x74\x70\x73\x3A\x2F\x2F\x6C\x61\x79\x63\x6F\x64\x65\x2E\x6B\x69\x65\x6D\x74\x68\x65\x63\x61\x6F\x66\x72\x65\x65\x2E\x63\x6F\x6D\x2F\x6C\x61\x6D\x6E\x67\x61\x79\x63\x6F\x6D",
+  "\x50\x4F\x53\x54",
+  "\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2E\x6A\x73\x6F\x6E",
+  "\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2F\x6A\x73\x6F\x6E",
+  "\x73\x74\x72\x69\x6E\x67\x69\x66\x79",
+  "\x68\x74\x74\x70\x73\x3A\x2F\x2F\x6C\x61\x79\x63\x6F\x64\x65\x2E\x6B\x69\x65\x6D\x74\x68\x65\x63\x61\x6F\x66\x72\x65\x65\x2E\x63\x6F\x6D\x2F\x71\x75\x69\x7A\x61\x70\x70",
+  "\x63\x6C\x69\x63\x6B",
+  "\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74",
+  "\x5F\x5F\x5F\x5F\x5F\x5F",
+  "\x43\x4F\x50\x59",
+  "\x76\x61\x6C\x75\x65",
+  "\x74\x72\x69\x6D",
+  "\x66\x69\x6E\x64\x49\x6E\x64\x65\x78",
+  "\x6C\x65\x6E\x67\x74\x68",
+  "\x42\u1EA1\x6E\x20\x63\x68\u01B0\x61\x20\u0111\x69\u1EC1\x6E\x20\x77\x65\x62\x73\x69\x74\x65\x2E\x20\x56\x75\x69\x20\x6C\xF2\x6E\x67\x20\x6E\x68\u1EAD\x70\x20\x77\x65\x62\x73\x69\x74\x65\x20\x76\xE0\x20\x74\x68\u1EED\x20\x6C\u1EA1\x69\x21",
+  "\x68\x69\x64\x64\x65\x6E\x5F\x64\x69\x76",
+  "\x72\x65\x6D\x6F\x76\x65",
+  "\x63\x6C\x61\x73\x73\x4C\x69\x73\x74",
+  "\x56\x69\x64\x65\x6F\x20\x73\x61\x75\x20\x73\u1EBD\x20\x63\x68\x69\x61\x20\x73\u1EBB\x20\x63\x68\x6F\x20\x63\xE1\x63\x20\x62\u1EA1\x6E\x20\x5E\x5E",
+  "",
+  "\x53\x65\x72\x76\x65\x72\x20\x6B\x68\xF4\x6E\x67\x20\x74\xEC\x6D\x20\x74\x68\u1EA5\x79\x2E\x20\x56\x75\x69\x20\x6C\xF2\x6E\x67\x20\x74\x68\u1EED\x20\x6C\u1EA1\x69\x21",
+  "\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72",
+  "\x77\x72\x69\x74\x65\x54\x65\x78\x74",
+  "\x63\x6C\x69\x70\x62\x6F\x61\x72\x64",
+  "\u0110\xC3\x20\x43\x4F\x50\x59",
+  "\x61\x64\x64",
+  "\x63\x68\x61\x6E\x67\x65",
+  "\x23\x74\x69\x6D\x65\x5F\x6E\x75\x6D\x62\x65\x72",
+  "\x23\x74\x69\x6D\x65\x5F\x74\x65\x78\x74\x5F\x74\x6F\x70",
+  "\x23\x74\x69\x6D\x65\x5F\x74\x65\x78\x74\x5F\x6C\x61\x73\x74",
+  "\x62\x6F\x72\x64\x65\x72",
+  "\x73\x74\x79\x6C\x65",
+  "\x31\x70\x78\x20\x73\x6F\x6C\x69\x64\x20\x62\x6C\x75\x65",
+  "\x73\x61\x75\x20\u0111\xF3\x20\x6D\u1EDB\x69\x20\x6E\x68\u1EAD\x70\x20\x6D\xE3\x20\x63\x6F\x64\x65\x21",
+  "\x73",
+  "\x20\x48\u1EBF\x74\x20\x67\x69\u1EDD\x21\x20\x42\u1EA1\x6E\x20\x63\xF3\x20\x74\x68\u1EC3\x20\x6E\x68\u1EAD\x70\x20\x6D\xE3\x20\x63\x6F\x64\x65\x20\x72\u1ED3\x69\x2E",
+  "\x6E\x6F\x6E\x65",
+];
+const a = document[_0x4de8[1]](_0x4de8[0]);
+const b = document[_0x4de8[1]](_0x4de8[2]);
+const c = document[_0x4de8[1]](_0x4de8[3]);
+const d = document[_0x4de8[1]](_0x4de8[4]);
+const g = document[_0x4de8[1]](_0x4de8[5]);
+const e = document[_0x4de8[1]](_0x4de8[6]);
+const f = document[_0x4de8[1]](_0x4de8[7]);
+const k = document[_0x4de8[1]](_0x4de8[8]);
+const m = document[_0x4de8[1]](_0x4de8[9]);
+const q = document[_0x4de8[1]](_0x4de8[10]);
+const n = document[_0x4de8[1]](_0x4de8[11]);
+let interval;
+const l = [_0x4de8[12], _0x4de8[13], _0x4de8[14]];
+const v = (_0x4413xf, _0x4413x10) => {
+  return fetch(`${_0x4de8[17]}`, {
+    method: _0x4de8[18],
+    headers: {
+      headers: _0x4de8[19],
+      "\x43\x6F\x6E\x74\x65\x6E\x74\x2D\x54\x79\x70\x65": _0x4de8[20],
+    },
+    body: JSON[_0x4de8[21]]({ website_text: _0x4413x10, domain_id: _0x4413xf }),
+  })[_0x4de8[16]]((_0x4413x11) => {
+    return _0x4413x11[_0x4de8[15]]();
+  });
+};
+const x = (_0x4413xf) => {
+  return fetch(`${_0x4de8[22]}`, {
+    method: _0x4de8[18],
+    headers: {
+      headers: _0x4de8[19],
+      "\x43\x6F\x6E\x74\x65\x6E\x74\x2D\x54\x79\x70\x65": _0x4de8[20],
+    },
+    body: JSON[_0x4de8[21]]({ domain_id: _0x4413xf }),
+  })
+    [_0x4de8[16]]((_0x4413x11) => {
+      return _0x4413x11[_0x4de8[15]]();
+    })
+    [_0x4de8[16]]((_0x4413x13) => {
+      return _0x4413x13;
+    });
+};
+c[_0x4de8[38]](_0x4de8[23], async () => {
+  d[_0x4de8[24]] = _0x4de8[25];
+  g[_0x4de8[24]] = _0x4de8[26];
+  const _0x4413x14 = a[_0x4de8[27]];
+  const _0x4413x10 = b[_0x4de8[27]][_0x4de8[28]]();
+  const _0x4413x15 = l[_0x4de8[29]]((_0x4413x16) => {
+    return _0x4413x16 === _0x4413x14;
+  });
+  if (_0x4413x15 !== -1) {
+    if (
+      _0x4413x10[_0x4de8[30]] === 0 &&
+      l[_0x4413x15] !== _0x4de8[14]
+    ) {
+      m[_0x4de8[24]] = _0x4de8[31];
+      e[_0x4de8[34]][_0x4de8[33]](_0x4de8[32]);
+      return;
+    }
+    if (l[_0x4413x15] == _0x4de8[12]) {
+      result = await v(_0x4413x15, _0x4413x10);
+    } else {
+      if (l[_0x4413x15] == _0x4de8[14]) {
+        m[_0x4de8[24]] = _0x4de8[35];
+        e[_0x4de8[34]][_0x4de8[33]](_0x4de8[32]);
+        return;
+      }
+    }
+    let { status, vipcode, message } = result;
+    if (status) {
+      clearInterval(interval);
+      d[_0x4de8[24]] = vipcode;
+      b[_0x4de8[27]] = _0x4de8[36];
+      o();
+    } else {
+      m[_0x4de8[24]] = message;
+      e[_0x4de8[34]][_0x4de8[33]](_0x4de8[32]);
+    }
+  } else {
+    m[_0x4de8[24]] = _0x4de8[37];
+    e[_0x4de8[34]][_0x4de8[33]](_0x4de8[32]);
+  }
+});
+g[_0x4de8[38]](_0x4de8[23], () => {
+  const _0x4413x17 = d[_0x4de8[24]][_0x4de8[28]]();
+  if (_0x4413x17[_0x4de8[30]] > 0) {
+    navigator[_0x4de8[40]][_0x4de8[39]](_0x4413x17);
+    g[_0x4de8[24]] = _0x4de8[41];
+  }
+});
+f[_0x4de8[38]](_0x4de8[23], () => {
+  e[_0x4de8[34]][_0x4de8[42]](_0x4de8[32]);
+});
+k[_0x4de8[38]](_0x4de8[23], () => {
+  e[_0x4de8[34]][_0x4de8[42]](_0x4de8[32]);
+});
+a[_0x4de8[38]](_0x4de8[43], () => {
+  const _0x4413x14 = a[_0x4de8[27]];
+  if (_0x4413x14 == _0x4de8[14]) {
+    q[_0x4de8[34]][_0x4de8[42]](_0x4de8[32]);
+    n[_0x4de8[34]][_0x4de8[33]](_0x4de8[32]);
+  } else {
+    q[_0x4de8[34]][_0x4de8[33]](_0x4de8[32]);
+    n[_0x4de8[34]][_0x4de8[42]](_0x4de8[32]);
+  }
+});
+const w = document[_0x4de8[1]](_0x4de8[44]);
+const r = document[_0x4de8[1]](_0x4de8[45]);
+const u = document[_0x4de8[1]](_0x4de8[46]);
+const o = () => {
+  let _0x4413x1c = 59;
+  w[_0x4de8[48]][_0x4de8[47]] = _0x4de8[49];
+  u[_0x4de8[24]] = `${_0x4de8[50]}`;
+  const _0x4413x1d = () => {
+    if (_0x4413x1c > 0) {
+      w[_0x4de8[24]] = `${_0x4de8[36]}${_0x4413x1c}${_0x4de8[51]}`;
+      _0x4413x1c--;
+    } else {
+      r[_0x4de8[24]] = `${_0x4de8[52]}`;
+      u[_0x4de8[24]] = `${_0x4de8[36]}`;
+      w[_0x4de8[48]][_0x4de8[47]] = _0x4de8[53];
+      w[_0x4de8[24]] = `${_0x4de8[36]}`;
+      clearInterval(interval);
+    }
+  };
+  interval = setInterval(_0x4413x1d, 1000);
+};
+
+})()
