@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.full_screen{
+    background-image: url("https://assets.glxplay.io/web/responsive/w1366/bg-lobby-ipad-landscape-1.jpg");
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 6.25rem;
+}
+
+#films_title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.films_group{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.one_film{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.one_film .one_film_image{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.management_film{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label_token{
+    padding: 10px;
+    color: #ffc107;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.management_film textarea{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+
+.btn_reset, .btn_update{
+    text-align: center;
+    background-color: #218838;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: all 0.4s ease;
+}
+
+.btn_reset:hover, .btn_update:hover{
+    background-color: #007bff;
+}
+
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.message{
+    padding: 0px 10px;
+    border: #007bff dashed 2px;
+    color: #ffc107;
+}
+
+.label_token{
+    text-align: center;
+}
+
+.hidden_class{
+    display: none !important;
+}
